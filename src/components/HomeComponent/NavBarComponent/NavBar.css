@@ -1,0 +1,35 @@
+.container {
+  background-color: #003580;
+}
+
+.nav_brand {
+  font-size: 22px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.navbar {
+  padding: 14px 16px;
+  margin: 0 auto;
+  color: #f2f2f2;
+  padding-bottom: 12px;
+  max-width: 1140px;
+}
+
+.nav {
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.nav_links {
+  display: flex;
+  gap: 1rem;
+}
+
+.nav_link {
+  background-color: white;
+  color: #003580;
+  padding: 4px 8px;
+}

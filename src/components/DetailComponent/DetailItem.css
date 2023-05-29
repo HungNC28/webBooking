@@ -1,0 +1,103 @@
+.detail_content {
+  max-width: 1140px;
+  margin: 2rem auto;
+}
+
+.item_img {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+}
+
+.item_img img {
+  width: 100%;
+}
+
+.item_name {
+  display: flex;
+  justify-content: space-between;
+  line-height: 2rem;
+  align-items: center;
+}
+
+.item_name p {
+  font-size: 14px;
+}
+
+.item_name_btn {
+  height: 3rem;
+  background-color: #0071c2;
+  color: white;
+  padding: 0 14px;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.item_distance {
+  color: #0071c2;
+  font-weight: bold;
+  margin: 1rem 0;
+}
+
+.item_price_text {
+  font-weight: bold;
+  color: #008009;
+  margin-bottom: 1rem;
+}
+
+.item_infor {
+  margin: 2rem 0;
+  display: flex;
+}
+
+.item_description {
+  margin-right: 1rem;
+}
+
+.item_description h2 {
+  margin: 1rem 0;
+}
+
+.item_description p {
+  line-height: 2rem;
+}
+
+.detail_item_price {
+  width: 90vw;
+  padding: 12px 16px;
+  background-color: #d0ebff;
+}
+
+.detail_item_price h3 {
+  font-size: 16px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.detail_item_price p {
+  margin-bottom: 1rem;
+}
+
+.nine_night_price {
+  display: flex;
+  font-size: 24px;
+}
+
+.nine_night_price p {
+  font-weight: bold;
+}
+
+.item_price_btn {
+  border-radius: 8px;
+  font-weight: bold;
+  width: 100%;
+  background-color: #0071c2;
+  color: white;
+  padding: 14px 16px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}

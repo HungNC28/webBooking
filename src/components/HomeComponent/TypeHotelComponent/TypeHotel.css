@@ -1,0 +1,26 @@
+.type_hotel {
+  margin: 0 auto;
+  max-width: 1140px;
+  margin-bottom: 1rem;
+}
+
+.type_hotel h2 {
+  margin-bottom: 1rem;
+}
+
+.type_hotel_content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.type_hotel_content img {
+  width: 200px;
+  height: 150px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.type_hotel_content h2 {
+  font-size: 16px;
+  margin-bottom: auto;
+}

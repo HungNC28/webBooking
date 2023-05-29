@@ -1,0 +1,22 @@
+.city {
+  margin: 0 auto;
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.city img {
+  width: 350px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.content {
+  color: white;
+  position: absolute;
+  font-weight: bold;
+  bottom: 2rem;
+  margin-left: 1rem;
+}

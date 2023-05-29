@@ -1,0 +1,17 @@
+.navbar_list {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.navbar_item {
+  padding: 4px 8px;
+}
+.active {
+  border: 1px solid white;
+  border-radius: 16px;
+}
+
+.navbar_list i {
+  margin-right: 8px;
+}
